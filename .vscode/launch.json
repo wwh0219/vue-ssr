@@ -9,7 +9,7 @@
      "request": "launch",
      "name": "nodemon",
      "runtimeExecutable": "nodemon",
-     "program": "${workspaceFolder}/dist/server/index.js",
+     "program": "${workspaceFolder}/dist/app.js",
      "restart": true,
      "console": "internalConsole",
      "internalConsoleOptions": "neverOpen",

@@ -6,9 +6,7 @@
 <script>
 export default {
   async created(){
-    import('lodash').then((res)=>{
-      res.default
-    })
+    console.log(this)
   }
 }
 </script>
