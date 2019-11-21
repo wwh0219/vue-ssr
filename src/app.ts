@@ -17,7 +17,9 @@ server.get('*', (req, res) => {
   renderer.renderToString(context, (err, html) => {
     // 处理异常……
     console.log(err)
+    console.log(html)
     res.end(html)
   })
 })
 server.listen(8012)
+console.log('启动成功')

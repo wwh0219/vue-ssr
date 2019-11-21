@@ -50,8 +50,6 @@
   </div>
 </template>
 <script>
-import _ from 'lodash'
-_.merge({},{})
 export default {
   async prefetch() {},
   props: {
@@ -73,10 +71,11 @@ export default {
   },
   mounted() {
     console.log(this);
+    console.log(this.form);
   },
   methods:{
     onSubmit() {
-        console.log('submit!');
+        console.log('submit1111122222211111!');
       }
   }
 };
